@@ -124,10 +124,11 @@ function App() {
       )}
 
       {selectedProduct && (
-        <ProductPage
+        <ProductPage 
         productId={selectedProduct}
         onClose={() => setSelectedProduct(null)}
-        onAddToCart={handleAddToCart}/>
+        onAddToCart={handleAddToCart}
+        />
       )}
 
       <footer className="footer">
