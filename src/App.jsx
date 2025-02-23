@@ -3,8 +3,8 @@ import React, { useState, useEffect } from 'react';
 import Navbar from './Navbar';
 import FilterSection from './FilterSection';
 import ProductCard from './ProductCard';
-import ProductPage from './Productpage';
 import CartPage from './CartPage';
+import ProductPage from './Productpage';
 
 const ProductSkeleton = () => (
   <div className="product-card skeleton">
@@ -125,10 +125,9 @@ function App() {
 
       {selectedProduct && (
         <ProductPage
-          productId={selectedProduct}
-          onClose={() => setSelectedProduct(null)}
-          onAddToCart={handleAddToCart}
-        />
+        productId={selectedProduct}
+        onClose={() => setSelectedProduct(null)}
+        onAddToCart={handleAddToCart}/>
       )}
 
       <footer className="footer">
