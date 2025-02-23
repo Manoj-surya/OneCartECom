@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import FilterSection from './FilterSection';
 import ProductCard from './ProductCard';
 import CartPage from './CartPage';
-import ProductPage from './Productpage';
+import ProductPage from './ProductPage_temp';
 
 const ProductSkeleton = () => (
   <div className="product-card skeleton">
