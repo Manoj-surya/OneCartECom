@@ -137,7 +137,7 @@ function App() {
             <div className="footer-section">
               <h3 className="footer-title" id='About'>About Us</h3>
               <p className="footer-text">
-                FurniCraft offers premium furniture for your home with a focus on quality and style.
+                OneCraft offers premium experience with a wide range of products, including furniture, beauty, fragrance, and more.
               </p>
             </div>
             <div className="footer-section">
@@ -150,9 +150,9 @@ function App() {
             <div className="footer-section">
               <h3 className="footer-title">Contact Us</h3>
               <p className="footer-text">
-                Email: info@furnicraft.com<br />
-                Phone: (555) 123-4567<br />
-                Address: 123 Furniture Lane
+                Email: suryamanoj05@gmail.com<br />
+                Phone: +91-6304355993<br />
+                Address: 123 Silicon Valley
               </p>
             </div>
           </div>
